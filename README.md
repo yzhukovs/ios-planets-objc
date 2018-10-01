@@ -1,4 +1,4 @@
-# Planets ObjC  
+# Planets Obj-C  
 
 ## Introduction
 
