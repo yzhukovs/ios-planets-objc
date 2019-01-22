@@ -12,7 +12,7 @@
 		44C25FDA21F6BF7A00F6CA35 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 44C25FD921F6BF7A00F6CA35 /* Assets.xcassets */; };
 		44C25FDD21F6BF7A00F6CA35 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 44C25FDB21F6BF7A00F6CA35 /* LaunchScreen.storyboard */; };
 		44C25FE021F6BF7A00F6CA35 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 44C25FDF21F6BF7A00F6CA35 /* main.m */; };
-		44C25FE821F6C3A000F6CA35 /* YZCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 44C25FE721F6C3A000F6CA35 /* YZCollectionViewController.m */; };
+		44C25FE821F6C3A000F6CA35 /* YZPlanetsCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 44C25FE721F6C3A000F6CA35 /* YZPlanetsCollectionViewController.m */; };
 		44C25FEB21F6C75F00F6CA35 /* YZPlanetCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 44C25FEA21F6C75F00F6CA35 /* YZPlanetCollectionViewCell.m */; };
 		44C25FEE21F6C9CC00F6CA35 /* YZSettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 44C25FED21F6C9CC00F6CA35 /* YZSettingsViewController.m */; };
 		44C25FF021F6CC1600F6CA35 /* earth.png in Resources */ = {isa = PBXBuildFile; fileRef = 44C25FEF21F6CC1600F6CA35 /* earth.png */; };
@@ -24,6 +24,8 @@
 		44C25FFC21F6CC6F00F6CA35 /* saturn.png in Resources */ = {isa = PBXBuildFile; fileRef = 44C25FFB21F6CC6F00F6CA35 /* saturn.png */; };
 		44C25FFE21F6CC7900F6CA35 /* uranus.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 44C25FFD21F6CC7900F6CA35 /* uranus.jpg */; };
 		44C2600021F6CC8400F6CA35 /* venus.png in Resources */ = {isa = PBXBuildFile; fileRef = 44C25FFF21F6CC8400F6CA35 /* venus.png */; };
+		44C2600321F6CD5900F6CA35 /* YZPlanetController.m in Sources */ = {isa = PBXBuildFile; fileRef = 44C2600221F6CD5900F6CA35 /* YZPlanetController.m */; };
+		44C2600621F762EA00F6CA35 /* YZPlanet.m in Sources */ = {isa = PBXBuildFile; fileRef = 44C2600521F762EA00F6CA35 /* YZPlanet.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,7 +38,7 @@
 		44C25FDE21F6BF7A00F6CA35 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		44C25FDF21F6BF7A00F6CA35 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		44C25FE621F6C3A000F6CA35 /* YZPlanetsCollectionViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YZPlanetsCollectionViewController.h; sourceTree = "<group>"; };
-		44C25FE721F6C3A000F6CA35 /* YZCollectionViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YZCollectionViewController.m; sourceTree = "<group>"; };
+		44C25FE721F6C3A000F6CA35 /* YZPlanetsCollectionViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YZPlanetsCollectionViewController.m; sourceTree = "<group>"; };
 		44C25FE921F6C75F00F6CA35 /* YZPlanetCollectionViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YZPlanetCollectionViewCell.h; sourceTree = "<group>"; };
 		44C25FEA21F6C75F00F6CA35 /* YZPlanetCollectionViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YZPlanetCollectionViewCell.m; sourceTree = "<group>"; };
 		44C25FEC21F6C9CC00F6CA35 /* YZSettingsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YZSettingsViewController.h; sourceTree = "<group>"; };
@@ -50,6 +52,10 @@
 		44C25FFB21F6CC6F00F6CA35 /* saturn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = saturn.png; sourceTree = "<group>"; };
 		44C25FFD21F6CC7900F6CA35 /* uranus.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = uranus.jpg; sourceTree = "<group>"; };
 		44C25FFF21F6CC8400F6CA35 /* venus.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = venus.png; sourceTree = "<group>"; };
+		44C2600121F6CD5900F6CA35 /* YZPlanetController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YZPlanetController.h; sourceTree = "<group>"; };
+		44C2600221F6CD5900F6CA35 /* YZPlanetController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YZPlanetController.m; sourceTree = "<group>"; };
+		44C2600421F762EA00F6CA35 /* YZPlanet.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YZPlanet.h; sourceTree = "<group>"; };
+		44C2600521F762EA00F6CA35 /* YZPlanet.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YZPlanet.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,11 +92,15 @@
 				44C25FD121F6BF7900F6CA35 /* AppDelegate.m */,
 				44C25FD621F6BF7900F6CA35 /* Main.storyboard */,
 				44C25FE921F6C75F00F6CA35 /* YZPlanetCollectionViewCell.h */,
+				44C25FEA21F6C75F00F6CA35 /* YZPlanetCollectionViewCell.m */,
 				44C25FEC21F6C9CC00F6CA35 /* YZSettingsViewController.h */,
 				44C25FED21F6C9CC00F6CA35 /* YZSettingsViewController.m */,
-				44C25FEA21F6C75F00F6CA35 /* YZPlanetCollectionViewCell.m */,
 				44C25FE621F6C3A000F6CA35 /* YZPlanetsCollectionViewController.h */,
-				44C25FE721F6C3A000F6CA35 /* YZCollectionViewController.m */,
+				44C25FE721F6C3A000F6CA35 /* YZPlanetsCollectionViewController.m */,
+				44C2600121F6CD5900F6CA35 /* YZPlanetController.h */,
+				44C2600221F6CD5900F6CA35 /* YZPlanetController.m */,
+				44C2600421F762EA00F6CA35 /* YZPlanet.h */,
+				44C2600521F762EA00F6CA35 /* YZPlanet.m */,
 				44C25FD921F6BF7A00F6CA35 /* Assets.xcassets */,
 				44C25FF521F6CC3F00F6CA35 /* mercury.png */,
 				44C25FF321F6CC3200F6CA35 /* mars.png */,
@@ -190,8 +200,10 @@
 			files = (
 				44C25FE021F6BF7A00F6CA35 /* main.m in Sources */,
 				44C25FEB21F6C75F00F6CA35 /* YZPlanetCollectionViewCell.m in Sources */,
+				44C2600621F762EA00F6CA35 /* YZPlanet.m in Sources */,
 				44C25FD221F6BF7900F6CA35 /* AppDelegate.m in Sources */,
-				44C25FE821F6C3A000F6CA35 /* YZCollectionViewController.m in Sources */,
+				44C25FE821F6C3A000F6CA35 /* YZPlanetsCollectionViewController.m in Sources */,
+				44C2600321F6CD5900F6CA35 /* YZPlanetController.m in Sources */,
 				44C25FEE21F6C9CC00F6CA35 /* YZSettingsViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
