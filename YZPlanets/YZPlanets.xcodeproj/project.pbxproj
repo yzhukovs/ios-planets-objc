@@ -1,0 +1,389 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		44C25FD221F6BF7900F6CA35 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 44C25FD121F6BF7900F6CA35 /* AppDelegate.m */; };
+		44C25FD821F6BF7900F6CA35 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 44C25FD621F6BF7900F6CA35 /* Main.storyboard */; };
+		44C25FDA21F6BF7A00F6CA35 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 44C25FD921F6BF7A00F6CA35 /* Assets.xcassets */; };
+		44C25FDD21F6BF7A00F6CA35 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 44C25FDB21F6BF7A00F6CA35 /* LaunchScreen.storyboard */; };
+		44C25FE021F6BF7A00F6CA35 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 44C25FDF21F6BF7A00F6CA35 /* main.m */; };
+		44C25FE821F6C3A000F6CA35 /* YZCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 44C25FE721F6C3A000F6CA35 /* YZCollectionViewController.m */; };
+		44C25FEB21F6C75F00F6CA35 /* YZPlanetCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 44C25FEA21F6C75F00F6CA35 /* YZPlanetCollectionViewCell.m */; };
+		44C25FEE21F6C9CC00F6CA35 /* YZSettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 44C25FED21F6C9CC00F6CA35 /* YZSettingsViewController.m */; };
+		44C25FF021F6CC1600F6CA35 /* earth.png in Resources */ = {isa = PBXBuildFile; fileRef = 44C25FEF21F6CC1600F6CA35 /* earth.png */; };
+		44C25FF221F6CC2600F6CA35 /* jupiter.png in Resources */ = {isa = PBXBuildFile; fileRef = 44C25FF121F6CC2600F6CA35 /* jupiter.png */; };
+		44C25FF421F6CC3200F6CA35 /* mars.png in Resources */ = {isa = PBXBuildFile; fileRef = 44C25FF321F6CC3200F6CA35 /* mars.png */; };
+		44C25FF621F6CC3F00F6CA35 /* mercury.png in Resources */ = {isa = PBXBuildFile; fileRef = 44C25FF521F6CC3F00F6CA35 /* mercury.png */; };
+		44C25FF821F6CC4D00F6CA35 /* neptune.png in Resources */ = {isa = PBXBuildFile; fileRef = 44C25FF721F6CC4D00F6CA35 /* neptune.png */; };
+		44C25FFA21F6CC5D00F6CA35 /* pluto.png in Resources */ = {isa = PBXBuildFile; fileRef = 44C25FF921F6CC5D00F6CA35 /* pluto.png */; };
+		44C25FFC21F6CC6F00F6CA35 /* saturn.png in Resources */ = {isa = PBXBuildFile; fileRef = 44C25FFB21F6CC6F00F6CA35 /* saturn.png */; };
+		44C25FFE21F6CC7900F6CA35 /* uranus.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 44C25FFD21F6CC7900F6CA35 /* uranus.jpg */; };
+		44C2600021F6CC8400F6CA35 /* venus.png in Resources */ = {isa = PBXBuildFile; fileRef = 44C25FFF21F6CC8400F6CA35 /* venus.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		44C25FCD21F6BF7900F6CA35 /* YZPlanets.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YZPlanets.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		44C25FD021F6BF7900F6CA35 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		44C25FD121F6BF7900F6CA35 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		44C25FD721F6BF7900F6CA35 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		44C25FD921F6BF7A00F6CA35 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		44C25FDC21F6BF7A00F6CA35 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		44C25FDE21F6BF7A00F6CA35 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		44C25FDF21F6BF7A00F6CA35 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		44C25FE621F6C3A000F6CA35 /* YZPlanetsCollectionViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YZPlanetsCollectionViewController.h; sourceTree = "<group>"; };
+		44C25FE721F6C3A000F6CA35 /* YZCollectionViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YZCollectionViewController.m; sourceTree = "<group>"; };
+		44C25FE921F6C75F00F6CA35 /* YZPlanetCollectionViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YZPlanetCollectionViewCell.h; sourceTree = "<group>"; };
+		44C25FEA21F6C75F00F6CA35 /* YZPlanetCollectionViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YZPlanetCollectionViewCell.m; sourceTree = "<group>"; };
+		44C25FEC21F6C9CC00F6CA35 /* YZSettingsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YZSettingsViewController.h; sourceTree = "<group>"; };
+		44C25FED21F6C9CC00F6CA35 /* YZSettingsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YZSettingsViewController.m; sourceTree = "<group>"; };
+		44C25FEF21F6CC1600F6CA35 /* earth.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = earth.png; sourceTree = "<group>"; };
+		44C25FF121F6CC2600F6CA35 /* jupiter.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = jupiter.png; sourceTree = "<group>"; };
+		44C25FF321F6CC3200F6CA35 /* mars.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mars.png; sourceTree = "<group>"; };
+		44C25FF521F6CC3F00F6CA35 /* mercury.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mercury.png; sourceTree = "<group>"; };
+		44C25FF721F6CC4D00F6CA35 /* neptune.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = neptune.png; sourceTree = "<group>"; };
+		44C25FF921F6CC5D00F6CA35 /* pluto.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pluto.png; sourceTree = "<group>"; };
+		44C25FFB21F6CC6F00F6CA35 /* saturn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = saturn.png; sourceTree = "<group>"; };
+		44C25FFD21F6CC7900F6CA35 /* uranus.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = uranus.jpg; sourceTree = "<group>"; };
+		44C25FFF21F6CC8400F6CA35 /* venus.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = venus.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		44C25FCA21F6BF7900F6CA35 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		44C25FC421F6BF7900F6CA35 = {
+			isa = PBXGroup;
+			children = (
+				44C25FCF21F6BF7900F6CA35 /* YZPlanets */,
+				44C25FCE21F6BF7900F6CA35 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		44C25FCE21F6BF7900F6CA35 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				44C25FCD21F6BF7900F6CA35 /* YZPlanets.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		44C25FCF21F6BF7900F6CA35 /* YZPlanets */ = {
+			isa = PBXGroup;
+			children = (
+				44C25FD021F6BF7900F6CA35 /* AppDelegate.h */,
+				44C25FD121F6BF7900F6CA35 /* AppDelegate.m */,
+				44C25FD621F6BF7900F6CA35 /* Main.storyboard */,
+				44C25FE921F6C75F00F6CA35 /* YZPlanetCollectionViewCell.h */,
+				44C25FEC21F6C9CC00F6CA35 /* YZSettingsViewController.h */,
+				44C25FED21F6C9CC00F6CA35 /* YZSettingsViewController.m */,
+				44C25FEA21F6C75F00F6CA35 /* YZPlanetCollectionViewCell.m */,
+				44C25FE621F6C3A000F6CA35 /* YZPlanetsCollectionViewController.h */,
+				44C25FE721F6C3A000F6CA35 /* YZCollectionViewController.m */,
+				44C25FD921F6BF7A00F6CA35 /* Assets.xcassets */,
+				44C25FF521F6CC3F00F6CA35 /* mercury.png */,
+				44C25FF321F6CC3200F6CA35 /* mars.png */,
+				44C25FF121F6CC2600F6CA35 /* jupiter.png */,
+				44C25FEF21F6CC1600F6CA35 /* earth.png */,
+				44C25FDB21F6BF7A00F6CA35 /* LaunchScreen.storyboard */,
+				44C25FF721F6CC4D00F6CA35 /* neptune.png */,
+				44C25FFF21F6CC8400F6CA35 /* venus.png */,
+				44C25FF921F6CC5D00F6CA35 /* pluto.png */,
+				44C25FFD21F6CC7900F6CA35 /* uranus.jpg */,
+				44C25FFB21F6CC6F00F6CA35 /* saturn.png */,
+				44C25FDE21F6BF7A00F6CA35 /* Info.plist */,
+				44C25FDF21F6BF7A00F6CA35 /* main.m */,
+			);
+			path = YZPlanets;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		44C25FCC21F6BF7900F6CA35 /* YZPlanets */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 44C25FE321F6BF7A00F6CA35 /* Build configuration list for PBXNativeTarget "YZPlanets" */;
+			buildPhases = (
+				44C25FC921F6BF7900F6CA35 /* Sources */,
+				44C25FCA21F6BF7900F6CA35 /* Frameworks */,
+				44C25FCB21F6BF7900F6CA35 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YZPlanets;
+			productName = YZPlanets;
+			productReference = 44C25FCD21F6BF7900F6CA35 /* YZPlanets.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		44C25FC521F6BF7900F6CA35 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = YZ;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "Yvette Zhukovsky";
+				TargetAttributes = {
+					44C25FCC21F6BF7900F6CA35 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+				};
+			};
+			buildConfigurationList = 44C25FC821F6BF7900F6CA35 /* Build configuration list for PBXProject "YZPlanets" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 44C25FC421F6BF7900F6CA35;
+			productRefGroup = 44C25FCE21F6BF7900F6CA35 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				44C25FCC21F6BF7900F6CA35 /* YZPlanets */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		44C25FCB21F6BF7900F6CA35 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				44C25FF021F6CC1600F6CA35 /* earth.png in Resources */,
+				44C2600021F6CC8400F6CA35 /* venus.png in Resources */,
+				44C25FFE21F6CC7900F6CA35 /* uranus.jpg in Resources */,
+				44C25FDD21F6BF7A00F6CA35 /* LaunchScreen.storyboard in Resources */,
+				44C25FF621F6CC3F00F6CA35 /* mercury.png in Resources */,
+				44C25FF421F6CC3200F6CA35 /* mars.png in Resources */,
+				44C25FFC21F6CC6F00F6CA35 /* saturn.png in Resources */,
+				44C25FDA21F6BF7A00F6CA35 /* Assets.xcassets in Resources */,
+				44C25FFA21F6CC5D00F6CA35 /* pluto.png in Resources */,
+				44C25FF821F6CC4D00F6CA35 /* neptune.png in Resources */,
+				44C25FF221F6CC2600F6CA35 /* jupiter.png in Resources */,
+				44C25FD821F6BF7900F6CA35 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		44C25FC921F6BF7900F6CA35 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				44C25FE021F6BF7A00F6CA35 /* main.m in Sources */,
+				44C25FEB21F6C75F00F6CA35 /* YZPlanetCollectionViewCell.m in Sources */,
+				44C25FD221F6BF7900F6CA35 /* AppDelegate.m in Sources */,
+				44C25FE821F6C3A000F6CA35 /* YZCollectionViewController.m in Sources */,
+				44C25FEE21F6C9CC00F6CA35 /* YZSettingsViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		44C25FD621F6BF7900F6CA35 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				44C25FD721F6BF7900F6CA35 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		44C25FDB21F6BF7A00F6CA35 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				44C25FDC21F6BF7A00F6CA35 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		44C25FE121F6BF7A00F6CA35 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		44C25FE221F6BF7A00F6CA35 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		44C25FE421F6BF7A00F6CA35 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = YZPlanets/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = LambdaSchool.YZPlanets;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		44C25FE521F6BF7A00F6CA35 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = YZPlanets/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = LambdaSchool.YZPlanets;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		44C25FC821F6BF7900F6CA35 /* Build configuration list for PBXProject "YZPlanets" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				44C25FE121F6BF7A00F6CA35 /* Debug */,
+				44C25FE221F6BF7A00F6CA35 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		44C25FE321F6BF7A00F6CA35 /* Build configuration list for PBXNativeTarget "YZPlanets" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				44C25FE421F6BF7A00F6CA35 /* Debug */,
+				44C25FE521F6BF7A00F6CA35 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 44C25FC521F6BF7900F6CA35 /* Project object */;
+}
